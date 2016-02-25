@@ -1,0 +1,15 @@
+{
+    "name": "eelkevdbos/cas-php",
+    "require": {
+        "guzzlehttp/guzzle": "6.*",
+        "symfony/http-foundation": "3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Evdb\\Cas\\": "src"
+        }
+    }
+}
